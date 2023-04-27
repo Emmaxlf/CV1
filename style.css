@@ -1,0 +1,17 @@
+html,body {
+    height: 100%;
+}
+main{
+    display:flex;
+    height: 100%;
+}
+#left-panel{
+    flex: 1 30%;
+    background-color: aquamarine;
+    height: 90%;
+}
+#right-panel {
+    flex: 1 70%;
+    background-color: blueviolet;
+    height: 90%;
+}
